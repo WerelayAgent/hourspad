@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/api/:path*",
+      "destination": "https://hours.fun/api/:path*"
+    },
+    {
+      "source": "/_next/image",
+      "destination": "https://hours.fun/_next/image"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
