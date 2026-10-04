@@ -9,8 +9,16 @@
       "destination": "https://hours.fun/_next/:path*"
     },
     {
-      "source": "/(.*\\.(?:png|jpg|jpeg|svg|ico|webp|woff2?))$",
-      "destination": "https://hours.fun/$1"
+      "source": "/brand/:path*",
+      "destination": "https://hours.fun/brand/:path*"
+    },
+    {
+      "source": "/launch",
+      "destination": "/launch.html"
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "/how-it-works.html"
     },
     {
       "source": "/(.*)",
