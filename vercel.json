@@ -9,6 +9,10 @@
       "destination": "https://hours.fun/_next/:path*"
     },
     {
+      "source": "/(.*\\.(?:png|jpg|jpeg|svg|ico|webp|woff2?))$",
+      "destination": "https://hours.fun/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
