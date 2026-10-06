@@ -5,8 +5,8 @@
       "destination": "https://hours.fun/api/:path*"
     },
     {
-      "source": "/_next/:path*",
-      "destination": "https://hours.fun/_next/:path*"
+      "source": "/_assets/:path*",
+      "destination": "https://hours.fun/_assets/:path*"
     },
     {
       "source": "/brand/:path*",
